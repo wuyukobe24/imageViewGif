@@ -1,6 +1,6 @@
 # imageViewGif
 利用UIImageView或UIWebView制作gif动图
-
+```
 //UIImageView实现gif动画
 - (void)imageGif {
 
@@ -27,7 +27,8 @@
         [self.gifImage setImage:[UIImage sd_animatedGIFWithData:data]];
     }
 }
-    
+ ```
+ ```
 //UIWebView实现.gif动画文件的播放
 - (void)webViewGif {
 
@@ -41,3 +42,4 @@
     [webView loadData:data MIMEType:@"image/gif" textEncodingName:nil baseURL:nil];
     
 }
+```
